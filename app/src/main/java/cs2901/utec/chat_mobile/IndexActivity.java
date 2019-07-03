@@ -42,8 +42,6 @@ public class IndexActivity extends AppCompatActivity {
         //Current User
         whoiam();
         //Other Users
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         recyclerView = (RecyclerView) findViewById(R.id.contacts);
 
