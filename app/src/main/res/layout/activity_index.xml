@@ -33,12 +33,6 @@
             android:id="@+id/contacts_layer"
             android:gravity="center"
             android:orientation="vertical">
-            <android.support.v7.widget.Toolbar
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/toolbar">
-
-            </android.support.v7.widget.Toolbar>
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/contacts"
                 android:layout_width="match_parent"
